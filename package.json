@@ -1,0 +1,57 @@
+{
+  "name": "theater-equipment-final",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Theater Equipment Catalog - Final Production Version",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js",
+    "postinstall": "cd server && npm install --only=production"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.29.5",
+    "axios": "^1.4.0",
+    "date-fns": "^4.1.0",
+    "html5-qrcode": "^2.3.8",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-barcode-reader": "^0.0.2",
+    "react-datepicker": "^8.4.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.11.1",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.39.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.0",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "theater",
+    "equipment",
+    "catalog",
+    "production",
+    "final"
+  ],
+  "author": "Theater Management",
+  "license": "MIT"
+}
